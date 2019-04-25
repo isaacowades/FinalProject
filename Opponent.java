@@ -1,0 +1,4 @@
+
+class Opponent extends Character {
+	
+}

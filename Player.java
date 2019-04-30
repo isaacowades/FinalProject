@@ -1,10 +1,9 @@
 
 class Player extends Character {
 	
-	private int TotalActionCount = 0;		//ALL
 	private int TotalActionOneCount = 0;	//Rock
-	private int TotalactionTwoCount = 0;	//Paper
-	private int TotalactionThreeCount = 0;	//Scissors
+	private int TotalActionTwoCount = 0;	//Paper
+	private int TotalActionThreeCount = 0;	//Scissors
 	
 	//Achivement Variables
 	private int totalMoves = 0;
@@ -17,25 +16,24 @@ class Player extends Character {
 	private int MaxStreakLosses = 0;
 	private int MaxStreakCombo = 0;
 	
-	public void setTotalActionCount(int totalActionCount) {
-		TotalActionCount = totalActionCount;
-	}
+	public Player() {}
+	
 	public int getTotalActionOneCount() {
 		return TotalActionOneCount;
 	}
 	public void setTotalActionOneCount(int totalActionOneCount) {
 		TotalActionOneCount = totalActionOneCount;
 	}
-	public int getTotalactionTwoCount() {
-		return TotalactionTwoCount;
+	public int getTotalActionTwoCount() {
+		return TotalActionTwoCount;
 	}
-	public void setTotalactionTwoCount(int totalactionTwoCount) {
-		TotalactionTwoCount = totalactionTwoCount;
+	public void setTotalActionTwoCount(int totalActionTwoCount) {
+		TotalActionTwoCount = totalActionTwoCount;
 	}
-	public int getTotalactionThreeCount() {
-		return TotalactionThreeCount;
+	public int getTotalActionThreeCount() {
+		return TotalActionThreeCount;
 	}
-	public void setTotalactionThreeCount(int totalactionThreeCount) {
-		TotalactionThreeCount = totalactionThreeCount;
+	public void setTotalActionThreeCount(int totalActionThreeCount) {
+		TotalActionThreeCount = totalActionThreeCount;
 	}
 }

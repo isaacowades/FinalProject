@@ -1,5 +1,5 @@
 
-public class Character {
+abstract class  Character {
 	private String playerName = "Default";
 	private int health = 0;
 	private int level = 0;
@@ -8,6 +8,19 @@ public class Character {
 	private int actionOneCount = 0;		//Rock
 	private int actionTwoCount = 0;		//Paper
 	private int actionThreeCount = 0;	//Scissors
+	
+	public Character() {};
+	
+	public void quickSetup(String playerName,int health, int level, int combo, int currentMove, int actionOneCount, int actionTwoCount, int actionThreeCount) {
+		this.playerName = playerName;
+		this.health = health;
+		this.level = level;
+		this.combo = combo;
+		this.currentMove = currentMove;
+		this.actionOneCount = actionOneCount;
+		this.actionTwoCount = actionTwoCount;
+		this.actionThreeCount = actionThreeCount;
+	}
 	
 	public String getPlayerName() {
 		return playerName;

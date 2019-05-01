@@ -1,3 +1,5 @@
+Here is a checklist what is needed and what has been finished.
+
 CHECK LIST:
 [ ] UPDATED GRAPHICS
 [X] Game Engine

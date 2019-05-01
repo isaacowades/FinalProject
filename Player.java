@@ -1,5 +1,5 @@
 
-class Player extends Character {
+class Player extends Character { //1.rock 2.paper 3.scissors
 	
 	private int TotalActionOneCount = 0;	//Rock
 	private int TotalActionTwoCount = 0;	//Paper
@@ -35,5 +35,29 @@ class Player extends Character {
 	}
 	public void setTotalActionThreeCount(int totalActionThreeCount) {
 		TotalActionThreeCount = totalActionThreeCount;
+	}
+
+	public int getTotalLosses() {
+		return totalLosses;
+	}
+
+	public void setTotalLosses(int totalLosses) {
+		this.totalLosses = totalLosses;
+	}
+
+	public int getTotalWins() {
+		return totalWins;
+	}
+
+	public void setTotalWins(int totalWins) {
+		this.totalWins = totalWins;
+	}
+
+	public int getTotalGames() {
+		return totalGames;
+	}
+
+	public void setTotalGames(int totalGames) {
+		this.totalGames = totalGames;
 	}
 }

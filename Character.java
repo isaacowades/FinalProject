@@ -3,8 +3,8 @@ abstract class  Character {
 	private String playerName = "Default";
 	private int health = 0;
 	private int level = 0;
-	private int combo = 0;	//Scissors
-	private int currentMove = 0;	//Scissors
+	private int combo = 0;
+	private int currentMove = 0;
 	private int actionOneCount = 0;		//Rock
 	private int actionTwoCount = 0;		//Paper
 	private int actionThreeCount = 0;	//Scissors
